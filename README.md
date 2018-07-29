@@ -1,4 +1,4 @@
-# amp-site-validator | Full site AMP Pages validator.
+# amp-site-validator | Full site AMP Pages validator
 
 If you publish your pages in AMP, you want to be sure any change does not affect your AMP performance. How? Setup a function generator that returns all URLS you want to validate and test them with the official Google's validator.
 
@@ -15,8 +15,11 @@ const urlGenerator = function* (){
 }
 
 // 3. Set the number of parallel jobs and validate!
-const results = await validator(urlGenerator, 10); // This will fetch and validate 10 pages at the same time
-console.log(results);
+async function run(){
+  const results = await validator(urlGenerator, 10); // This will fetch and validate 10 pages at the same time
+  console.log(results);
+}
+run();
 ```
 
 ### Another way to create a generator?
@@ -33,8 +36,8 @@ const urlGenerator = function* (){
 
 ### How to count correct and failed pages ?
 ```
-console.log('Valid pages : '+ results.filter( results => result.status === 'PASS').length)
-console.log('Invalid pages : '+ results.filter( results => result.status !== 'PASS').length)
+console.log('Valid pages : '+ results.filter( result => result.status === 'PASS').length)
+console.log('Invalid pages : '+ results.filter( result => result.status !== 'PASS').length)
 ```
 
 ## FAQs
