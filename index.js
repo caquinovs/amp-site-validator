@@ -1,4 +1,4 @@
-const pool = require('async-functions-pool');
+const pool = require('async-functions-pool')();
 const amphtmlValidator = require('amphtml-validator');
 const fetch = require('node-fetch');
 
