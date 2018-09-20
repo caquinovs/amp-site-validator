@@ -12,4 +12,4 @@ module.exports = async (urlGenerator, parallel = 1) => {
 
 const makeJob = (validator, url) =>
   async () =>
-    await validator.validateString(await fetch(url).then(res => res.text()));
+    ({url, ...await validator.validateString(await fetch(url).then(res => res.text()))});

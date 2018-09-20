@@ -16,7 +16,8 @@ const urlGenerator = function* (){
 
 // 3. Set the number of parallel jobs and validate!
 async function run(){
-  const results = await validator(urlGenerator, 10); // This will fetch and validate 10 pages at the same time
+  // This will fetch and validate 10 pages at the same time
+  const results = await validator(urlGenerator, 10);
   console.log(results);
 }
 run();

@@ -1,6 +1,6 @@
 {
   "name": "amp-site-validator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Full site AMP Pages validator",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "amphtml-validator": "^1.0.23",
-    "async-functions-pool": "1.0.0",
+    "async-functions-pool": "^1.0.0",
     "node-fetch": "^2.2.0"
   },
   "bugs": {
