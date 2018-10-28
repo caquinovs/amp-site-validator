@@ -1,8 +1,8 @@
+[![NPM](https://nodei.co/npm/amp-site-validator.png)](https://nodei.co/npm/amp-site-validator)
+
 # amp-site-validator | Full site AMP Pages validator
 
 If you publish your pages in AMP, you want to be sure any change does not affect your AMP performance. How? Setup a function generator that returns all URLS you want to validate and test them with the official Google's validator.
-
-[![NPM](https://nodei.co/npm/amp-site-validator.png?downloads)](https://nodei.co/npm/amp-site-validator)
 
 ## Usage
 ```
