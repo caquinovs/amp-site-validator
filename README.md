@@ -1,7 +1,7 @@
 ![Current Version](https://img.shields.io/npm/v/amp-site-validator.svg)
 ![NPM Minified size](https://img.shields.io/bundlephobia/min/amp-site-validator.svg)
 ![Github Code Size](https://img.shields.io/github/languages/code-size/wjsc/amp-site-validator.svg)
-![Downloads/Week](https://img.shields.io/npm/dw/amp-site-validator.svg)
+![Downloads/Year](https://img.shields.io/npm/dy/amp-site-validator.svg)
 ![Issues](https://img.shields.io/github/issues/wjsc/amp-site-validator.svg)
 ![License](https://img.shields.io/github/license/wjsc/amp-site-validator.svg)
 ![Contributors](https://img.shields.io/github/contributors/wjsc/amp-site-validator.svg)
