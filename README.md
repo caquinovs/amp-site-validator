@@ -15,8 +15,9 @@ If you publish your pages in AMP, you want to be sure any change does not affect
 
 ## Usage
 ```
-// 1. Import module
-const validator = require('amp-site-validator');
+// 1. Import module and create a Validator
+const createValidator = require('amp-site-validator');
+const validator = createValidator();
 
 // 2. Create your own url generator
 const urlGenerator = function* (){
